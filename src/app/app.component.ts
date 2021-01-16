@@ -11,10 +11,10 @@ export class AppComponent {
 
   async ngOnInit() {
     await DataStore.save(
-    new Anime({
-		"title": "Lorem ipsum dolor sit amet",
-		"rating": "Lorem ipsum dolor sit amet"
-	})
-);
+      new Anime({
+        "title": "Yeetmeister",
+        "rating": "6969420"
+      })
+    );
   }
 }
